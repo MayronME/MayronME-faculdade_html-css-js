@@ -1,0 +1,80 @@
+/* Geral */
+body {
+    /*configura a fonte de toda a pagina index*/
+    font-family: Helvetica;
+    /*centraliza todo o conteúdo*/
+    text-align: center;
+    /*altera a cor da fonte*/
+    color: white;
+    /*altera a cor de fundo da pagina*/
+    background-color: #333;
+    /*reset da margem e padding do body*/
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos aplicados na seção nav */
+nav {
+    /*alinha todos os objetos na mesma linha*/
+    display: flex;
+    /*separa os elementos em espaços iguais*/
+    justify-content: space-between;
+    /*adiciona afastamento na margem da tela*/
+    padding: 20px;
+    /*corrige a centralização dos elementos no centro*/
+    align-items: center;
+    /*adiciona uma linha entre o nav e os elementos a baixo*/
+    border-bottom: 1px solid #666;
+}
+
+nav ul {
+    /*alinha toda a lista em uma linha*/
+    display: flex;
+    /*Retira os botões da lista*/
+    list-style: none;
+    
+}
+
+/*adiciona espaço entre os elementos da lista*/
+ul li {
+    margin-right: 12px;
+}
+
+
+ul li a {
+    /*adiciona a fonte branca nos elementos*/
+    color: #fff;
+    /*retira toda a decoração dos elementos*/
+    text-decoration: none;
+    /*tempo de troca de cores dos elentos*/
+    transition: 0.5s;
+}
+
+
+ul li a:hover {
+    /*altera a cor para azul quando o mouse passa pelos elementos*/
+    color: rgb(15, 89, 150);
+}
+
+
+h1 {
+    /*altera o tamanho do texto do titulo*/ 
+    font-size: 32px;
+}
+
+ 
+img {
+    /*adiciona a borda da imagem*/
+    border: 3px solid rgb(15, 194, 218);
+    /*altera o tamanho*/
+    height: 300px;
+}
+
+
+footer {
+    /*adiciona afastamento na tela*/
+    padding: 20px; 
+    /*adiciona e cima do rodapé*/
+    border-top: 1px solid #666;
+    margin-top: 20px;
+}

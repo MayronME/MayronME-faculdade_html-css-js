@@ -1,0 +1,23 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+
+.mom {
+  width: 80%; /* Try setting this to 400px or something */
+  display: table;
+  border: 1px solid #444444;
+}
+.child {
+  display: table-cell;
+}
+
+.child:first-child .childinner {
+  margin-left: 0;
+}
+
+.paginas{
+  margin-left: 40%;
+}
